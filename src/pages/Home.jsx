@@ -1,6 +1,7 @@
 import { Download, Linkedin } from "lucide-react";
 import React from "react";
 import { motion } from "framer-motion";
+import mainImage from "../assets/main.png"; // Import the image
 
 const Home = () => {
   return (
@@ -53,7 +54,7 @@ const Home = () => {
       >
         <img
           className="w-[150px] lg:w-[200px] hover:scale-105 transition-transform duration-300"
-          src="/main.png"
+          src={mainImage} // Use the imported image
           alt="avatar"
         />
         <p className="tracking-widest mt-2">Eng.ahmedsameer0@gmail.com</p>
